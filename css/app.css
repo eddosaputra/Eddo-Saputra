@@ -4,7 +4,7 @@
 body{
     font-family: 'Itim', sans-serif;
 
-    height: 110vh;
+    padding: 0;
     margin: 0;
 
     display: flex;
@@ -18,7 +18,7 @@ aside{
     flex: 1;
 }
 .kepala{
-    padding: 20px;
+    padding: 30px;
     font-size: 10px;
     background-color: rgb(224, 194, 224);
     text-align: center;
@@ -33,12 +33,9 @@ footer{
 }
 nav {
     background-color: rgba(248, 248, 248, 0.897);
-    padding: 1px;
-    position: fixed;
+    padding: 5px;
+    position: sticky;
     top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
 }
 nav ul{
     padding-inline: 10rem;
