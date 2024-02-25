@@ -46,6 +46,11 @@ nav ul{
 nav li{
     list-style-type: none;
 }
+.kontak{
+    color: #e1baf3;
+    text-decoration: none;
+
+}
 nav a:hover{
     font-weight: bold;
 }
@@ -53,9 +58,11 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: rgb(91, 22, 94);
 }
 .profile img{
     width: 200px;
+    border-radius: 50px;
 }
 .balok{
     box-shadow: 0 2px 4px 0 rgba(0, 2, 4, 0.2);
