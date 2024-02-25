@@ -41,12 +41,10 @@ nav ul{
     padding-inline: 10rem;
     display: flex;
     gap: 1rem;
+    justify-content: center;
 }
 nav li{
     list-style-type: none;
-}
-.nav-list{
-    text-align: center;
 }
 nav a:hover{
     font-weight: bold;
